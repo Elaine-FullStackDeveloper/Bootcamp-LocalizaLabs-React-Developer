@@ -24,3 +24,14 @@ X[2] = 63
 X[3] = 1
 */
 
+function desafio() {
+  for(let i = 0; i < 10; i++) {
+    let X = parseInt(gets()); 
+    if(X <= 0 ) {
+      X = 1;
+    }
+    console.log(`X[${i}] = ${X}`); 
+  }
+}
+desafio();
+
